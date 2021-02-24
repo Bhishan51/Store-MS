@@ -14,7 +14,7 @@ class Category(models.Model):
     #     return reverse('store:category_list',args=[self.slug])
 
     def __str__(self):
-        return self.name
+        return self.name 
 
 
 class Product(models.Model):
